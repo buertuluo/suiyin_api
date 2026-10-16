@@ -1,0 +1,10 @@
+<settings>
+  <mirrors>
+    <mirror>
+      <id>aliyun-central</id>
+      <mirrorOf>*</mirrorOf>
+      <name>Aliyun Maven</name>
+      <url>https://maven.aliyun.com/repository/central</url>
+    </mirror>
+  </mirrors>
+</settings>

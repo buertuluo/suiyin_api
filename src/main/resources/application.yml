@@ -1,0 +1,16 @@
+server:
+  port: 3000
+  address: 0.0.0.0
+
+spring:
+  application:
+    name: suiyin-api
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/suiyin_ledger?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: ${MYSQL_PASSWORD:}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    com.suiyin.api: INFO
